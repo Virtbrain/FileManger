@@ -56,15 +56,31 @@
 		14A1CF342AC307B10065A713 /* FileManger */ = {
 			isa = PBXGroup;
 			children = (
-				14A1CF352AC307B10065A713 /* AppDelegate.swift */,
-				14A1CF372AC307B10065A713 /* SceneDelegate.swift */,
+				14A1CF4A2AC307C60065A713 /* Application */,
+				14A1CF492AC307BE0065A713 /* Resources */,
 				14A1CF392AC307B10065A713 /* ViewController.swift */,
 				14A1CF3B2AC307B10065A713 /* Main.storyboard */,
-				14A1CF3E2AC307B30065A713 /* Assets.xcassets */,
-				14A1CF402AC307B30065A713 /* LaunchScreen.storyboard */,
-				14A1CF432AC307B30065A713 /* Info.plist */,
 			);
 			path = FileManger;
+			sourceTree = "<group>";
+		};
+		14A1CF492AC307BE0065A713 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				14A1CF432AC307B30065A713 /* Info.plist */,
+				14A1CF3E2AC307B30065A713 /* Assets.xcassets */,
+				14A1CF402AC307B30065A713 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		14A1CF4A2AC307C60065A713 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				14A1CF352AC307B10065A713 /* AppDelegate.swift */,
+				14A1CF372AC307B10065A713 /* SceneDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,7 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FileManger/Info.plist;
+				INFOPLIST_FILE = FileManger/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,7 +336,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FileManger/Info.plist;
+				INFOPLIST_FILE = FileManger/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
